@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* STYLES */
+
+*body{
+    box-sizing:border-box;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 32px;
+}
+
+.clearfix::before,.clearfix::after{
+    content:"";
+    display:table;
+}
+.clearfix::after{
+    clear:both;
+}
+/* header */
+
+header{
+    padding:20px 0 ;
+    height:60px;
+    line-height: 60px;
+    background-color:rgb(15, 90, 250);
+}
+.logo img {
+    width:50px;
+    vertical-align: middle;;
+}
+.nav a {
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+    font-size:20px;
+}
+.logo{
+    float:left;
+}
+.nav{
+    float:right;
+}
+
+/* ARTICLE */
+
+section{
+    padding:50px 0 ;
+    background-color:antiquewhite;
+}
+.article-img{
+    width:100%
+}
+.arti{
+    float:left;
+    margin:0 1.5%;
+    width:30%;
+}
+p{
+    margin-top:26px;
+    font-size:24px;
+}
+
+/* Footer  */
+.footer {
+    background-color:rgb(15, 90, 250);
+    padding:30px 0;
+}
+.footer small {
+    float:left;
+    color:white;
+}
+.footer nav {
+    float:right;
+}
+nav a {
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    margin-left: 10px;
+}
